@@ -51,6 +51,10 @@ public class home extends Fragment {
         final ArrayList<Courses_Item> categories = new ArrayList<>();
         final ArrayList<String> categoriesName = new ArrayList<>();
         final CoursesAdapter adapter = new CoursesAdapter(getContext(), categories);
+        if(!Start_layout.mediaPlayer.isPlaying())
+        {
+            Start_layout.mediaPlayer.start();
+        }
         database.collection("Courses")
                 .addSnapshotListener(new EventListener<QuerySnapshot>() {
                     @Override

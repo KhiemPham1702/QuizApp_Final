@@ -30,6 +30,7 @@ public class Start_layout extends AppCompatActivity {
         mo = findViewById(R.id.mo_star);
 
         mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.song);
+        mediaPlayer.setLooping(true);
         mediaPlayer.start();
 //        SharedPreferences.Editor editor=sharedPreferences.edit();
 //        editor.put("unvoice","0");

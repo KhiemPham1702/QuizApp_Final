@@ -50,6 +50,14 @@
         android:layout_marginTop="-24dp"
         android:background="@drawable/rectangle18" />
 
+
+
+    <View
+        android:layout_width="375dp"
+        android:layout_height="500dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/quiz_custom" />
     <TextView
         android:fontFamily="@font/baloo_bhai"
         android:id="@+id/question"
@@ -64,14 +72,6 @@
         android:text="Question..?"
         android:textColor="@color/black"
         android:textSize="30dp" />
-
-    <View
-        android:layout_width="375dp"
-        android:layout_height="500dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="120dp"
-        android:background="@drawable/quiz_custom" />
-
     <TextView
         android:fontFamily="@font/baloo_bhai"
         android:id="@+id/option1"

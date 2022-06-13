@@ -46,6 +46,10 @@ public class rank extends Fragment {
         final ArrayList<String> topImage = new ArrayList<String>();
 
         final RankAdapter adapter = new RankAdapter(getContext(), users);
+        if(!Start_layout.mediaPlayer.isPlaying())
+        {
+            Start_layout.mediaPlayer.start();
+        }
         binding.ranktable.setAdapter(adapter);
         binding.ranktable.setLayoutManager(new LinearLayoutManager(getContext()));
      database.collection("users")

@@ -163,7 +163,10 @@ public class Profile extends Fragment {
         firebaseStorage = FirebaseStorage.getInstance();
         storageReference = firebaseStorage.getReference();
 
-
+        if(!Start_layout.mediaPlayer.isPlaying())
+        {
+            Start_layout.mediaPlayer.start();
+        }
         showUserProfile();
 
         changePass.setOnClickListener(new View.OnClickListener() {

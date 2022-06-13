@@ -120,6 +120,10 @@ public class Setting extends Fragment {
         seekBar = v.findViewById(R.id.seekbar);
         seekBar.setMax(maxVolume);
         seekBar.setProgress(currentVolume);
+        if(!Start_layout.mediaPlayer.isPlaying())
+        {
+            Start_layout.mediaPlayer.start();
+        }
         sharedPreferences= getActivity().getSharedPreferences("music", Context.MODE_PRIVATE);
         showUserProfile();
         sign_out.setOnClickListener(new View.OnClickListener() {

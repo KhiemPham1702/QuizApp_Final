@@ -47,6 +47,7 @@ public class Quiz_layout extends AppCompatActivity {
         final String cat = intent.getStringExtra("cat");
         final String testId = getIntent().getStringExtra("testId");
         final String course = getIntent().getStringExtra("course");
+        Start_layout.mediaPlayer.pause();
         if(course.equals("English"))
         {
             binding.quizApp.setBackgroundResource(R.drawable.english);

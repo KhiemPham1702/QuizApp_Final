@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="65dp">
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="1"
+        android:textAppearance="@style/some_id2"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/state_button"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toEndOf="@+id/id"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="316dp"
+        android:gravity="center"
+        android:text="+10"
+        android:textAppearance="@style/some_id2"
+        android:textColor="@color/green"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.466" />
+</androidx.constraintlayout.widget.ConstraintLayout>
