@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Quiz_Final</string>
+    <string name="quiz_app">QUIZ APP</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="answer_the_">Answer the quizzes and discover more fascinating new knowledge!!!</string>
+    <string name="get_started">Get started</string>
+    <string name="email">Email</string>
+    <string name="sign_up">Sign up</string>
+    <string name="login"> Login </string>
+    <string name="please_logi"> Please login into your account. </string>
+    <string name="password"> Password </string>
+    <string name="if_you_don_"> If you don\u00E2\u0080\u0099t have an  account ? </string>
+    <string name="confirm_pas"> Confirm password </string>
+    <string name="already_hav"> Already have an account ? </string>
+    <string name="create_your">Create your account and let us started.</string>
+    <string name="submit"> Submit\n </string>
+    <string name="opps_it_hap"> Opps. It happens to the best of us. Input your email address to fix the issue. </string>
+    <string name="forgot_pass"> Forgot pass </string>
+    <string name="verificatio">Verification\nSubmit</string>
+    <string name="copy_the_ve"> Copy the verification code in your authy application to verify this account recovery </string>
+    <string name="authy_verif"> Authy Verification </string>
+    <string name="verificatio1">Verification code</string>
+    <string name="set_new_pas"> Set new Password </string>
+    <string name="enter_your_"> Enter your new password below and check the hint while setting it. </string>
+    <string name="set_new_pas1"> Set new pass </string>
+    <string name="next">Next</string>
+    <string name="english">English</string>
+    <string name="question_1_">Question 1/10</string>
+    <string name="question_">Question... ?</string>
+    <string name="answer">Answer</string>
+    <string name="test1">Test1</string>
+    <string name="time_"> Time: </string>
+    <string name="questions_"> Questions: </string>
+    <string name="minutes"> 10 minutes </string>
+    <string name="some_id"> 30 </string>
+    <string name="start"> Start </string>
+    <string name="your_profil">Your Profile</string>
+    <string name="phone">Phone</string>
+    <string name="school">School</string>
+    <string name="password2">Password</string>
+    <string name="setting">Setting</string>
+    <string name="sound">Sound</string>
+    <string name="sign_out">Sign out</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ranking">Ranking</string>
+    <string name="some_id1">100</string>
+    <string name="nickname4">nickname4</string>
+    <string name="feedback">Feedback</string>
+    <string name="messageText">Đây là một app nhỏ từ sinh viên UIT nhằm góp một phần nhỏ cho những bạn muốn rèn luyện về cuộc thi Đánh gia năng lực do ĐHQG HCM tổ chức. App mới chỉ ở giai đoạn đầu nên chưa hoàn thiện. nếu có gì thiếu sót mong các bạn góp ý đến cho bọn mình.\nXin chân thành cảm ơn !!!</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+
+</resources>

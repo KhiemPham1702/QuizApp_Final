@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="353dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/rec_test"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/TestName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="top"
+            android:text="@string/test1"
+            android:textAppearance="@style/test1" />
+
+        <TextView
+            android:id="@+id/time_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:gravity="top"
+            android:text="Time:"
+            android:textAppearance="@style/time_"
+
+             />
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="31dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="-27dp"
+            android:gravity="top"
+            android:text="minutes"
+            android:textAppearance="@style/minutes" />
+        <TextView
+            android:id="@+id/TestTime"
+            android:layout_width="105dp"
+            android:layout_height="31dp"
+            android:layout_marginLeft="82dp"
+            android:layout_marginTop="-31dp"
+            android:gravity="top"
+            android:text="10"
+            android:textAppearance="@style/minutes" />
+        <TextView
+            android:id="@+id/some_id"
+            android:layout_width="6dp"
+            android:layout_height="31dp"
+            android:text="|"
+            android:layout_marginLeft="185dp"
+            android:layout_marginTop="-31.5dp"
+            android:textAppearance="@style/some_id"
+            android:gravity="top"
+            />
+        <TextView
+            android:id="@+id/questions_"
+            android:layout_width="99dp"
+            android:layout_height="31dp"
+            android:text="Questions:"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="-31.5dp"
+            android:textAppearance="@style/questions_"
+            android:gravity="top"
+            />
+        <TextView
+            android:id="@+id/TestNumberQuestion"
+            android:layout_width="40dp"
+            android:layout_height="31dp"
+            android:text="30"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="-31dp"
+            android:textAppearance="@style/some_id"
+            android:gravity="top"
+            />
+        <TextView
+            android:id="@+id/start"
+            android:layout_width="84dp"
+            android:layout_height="35dp"
+            android:text="Start"
+            android:textAppearance="@style/start"
+            android:gravity="center"
+            android:layout_marginLeft="240dp"
+            android:background="@drawable/rec_start"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

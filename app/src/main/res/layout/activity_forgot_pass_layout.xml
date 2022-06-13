@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Forgot_pass_layout"
+    android:id="@+id/forgot_pass"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/fogot_pass">
+
+    <View
+        android:id="@+id/ellipse_4"
+        android:layout_width="157dp"
+        android:layout_height="157dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-26dp"
+        android:layout_marginTop="612dp"
+        android:background="@drawable/ellipse_4" />
+    <View
+        android:id="@+id/ellipse_1"
+        android:layout_width="57dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="344dp"
+        android:background="@drawable/ellipse_1"
+        />
+    <View
+        android:id="@+id/ellipse_6"
+        android:layout_width="84dp"
+        android:layout_height="81dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="297dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="402dp"
+        android:background="@drawable/ellipse_6"
+        />
+    <View
+        android:id="@+id/ellipse_7"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="204dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="553dp"
+        android:background="@drawable/ellipse_7"
+        />
+    <View
+        android:id="@+id/ellipse_6_1"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="366dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="551dp"
+        android:background="@drawable/ellipse_6"
+        />
+
+    <EditText
+        android:id="@+id/forgot_email"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="474dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:textColor="@color/gray"
+        android:translationZ="90dp"
+        android:background="@drawable/rectangle_3"/>
+
+    <View
+        android:id="@+id/rectangle_3"
+        android:layout_width="335dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="474dp"
+        android:background="@drawable/rectangle_3" />
+
+    <View
+        android:id="@+id/rectangle_3_1"
+        android:layout_width="213dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="114dp"
+        android:layout_marginTop="548dp"
+        android:background="@drawable/rectangle1" />
+
+    <TextView
+        android:id="@+id/submit"
+        android:layout_width="146dp"
+        android:layout_height="31dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="555dp"
+        android:fontFamily="@font/interbold700"
+        android:gravity="center_horizontal|top"
+        android:text="@string/submit"
+        android:textAppearance="@style/submit" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="50dp"
+        android:layout_height="31dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="437dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:gravity="top"
+        android:text="@string/email"
+        android:textAppearance="@style/email" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="315dp"
+        android:src="@drawable/vector3" />
+
+    <View
+        android:id="@+id/young_woman"
+        android:layout_width="247dp"
+        android:layout_height="247dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="153dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="184dp"
+        android:background="@drawable/woman"
+        android:elevation="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/rectangle_2"
+        android:layout_width="181dp"
+        android:layout_height="59dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectangle_2"
+        android:elevation="4dp" />
+
+    <TextView
+        android:id="@+id/opps_it_hap"
+        android:layout_width="344dp"
+        android:layout_height="53dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="135dp"
+        android:gravity="top"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="@string/opps_it_hap"
+        android:textAppearance="@style/opps_it_hap" />
+
+    <TextView
+        android:id="@+id/forgot_pass_1"
+        android:layout_width="360dp"
+        android:layout_height="87dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="55dp"
+        android:fontFamily="@font/interbold700"
+        android:gravity="top"
+        android:text="@string/forgot_pass"
+        android:textAppearance="@style/forgot_pass" />
+
+    <View
+        android:id="@+id/undo"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="646dp"
+        android:background="@drawable/previous1" />
+
+</RelativeLayout>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Sign_up_layout"
+    android:id="@+id/sign_up"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/sign_up">
+    <View
+        android:id="@+id/ellipse_4"
+        android:layout_width="157dp"
+        android:layout_height="157dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="-26dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="612dp"
+        android:background="@drawable/ellipse_4"
+        />
+    <View
+        android:id="@+id/ellipse_1"
+        android:layout_width="57dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="344dp"
+        android:background="@drawable/ellipse_1"
+        />
+    <View
+        android:id="@+id/ellipse_6"
+        android:layout_width="84dp"
+        android:layout_height="81dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="297dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="402dp"
+        android:background="@drawable/ellipse_6"
+        />
+    <View
+        android:id="@+id/ellipse_7"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="204dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="553dp"
+        android:background="@drawable/ellipse_7"
+        />
+    <View
+        android:id="@+id/ellipse_6_1"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="366dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="551dp"
+        android:background="@drawable/ellipse_6"
+        />
+    <View
+        android:id="@+id/ellipse_6_2"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="116dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="483dp"
+        android:background="@drawable/ellipse_6"
+        />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="368dp"
+        android:textColor="@color/gray"
+        android:fontFamily="@font/baloo_bhai"
+        android:translationZ="90dp"
+        android:background="@drawable/rectangle_3"/>
+
+    <View
+        android:id="@+id/rectangle_3"
+        android:layout_width="335dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="368dp"
+        android:background="@drawable/rectangle_3" />
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="447dp"
+        android:textColor="@color/gray"
+        android:fontFamily="@font/baloo_bhai"
+        android:inputType="textPassword"
+        android:translationZ="90dp"
+        android:background="@drawable/rectangle_4"/>
+
+    <View
+        android:id="@+id/rectangle_4"
+        android:layout_width="335dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="447dp"
+        android:background="@drawable/rectangle_4" />
+
+    <EditText
+        android:id="@+id/txtConfirPass"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="526dp"
+        android:textColor="@color/gray"
+        android:fontFamily="@font/baloo_bhai"
+        android:inputType="textPassword"
+        android:translationZ="90dp"
+        android:background="@drawable/rectangle_4"/>
+
+    <View
+        android:id="@+id/rectangle_5"
+        android:layout_width="335dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="526dp"
+        android:background="@drawable/rectangle_3" />
+
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="213dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="113dp"
+        android:layout_marginTop="588dp"
+        android:background="@drawable/rectangle1" />
+
+    <TextView
+        android:id="@+id/sign_up_1"
+        android:layout_width="175dp"
+        android:layout_height="51dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="134dp"
+        android:layout_marginTop="592dp"
+        android:fontFamily="@font/interbold700"
+        android:gravity="center_horizontal|top"
+        android:text="@string/sign_up"
+        android:textAppearance="@style/sign_up1" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="55dp"
+        android:layout_height="31dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="332dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:gravity="top"
+        android:text="@string/email"
+        android:textAppearance="@style/email" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="100dp"
+        android:layout_height="31dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="415dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:gravity="top"
+        android:text="@string/password"
+        android:textAppearance="@style/password" />
+
+    <TextView
+        android:id="@+id/confirm_pas"
+        android:layout_width="200dp"
+        android:layout_height="31dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="495dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:gravity="top"
+        android:text="@string/confirm_pas"
+        android:textAppearance="@style/confirm_pas" />
+
+    <TextView
+        android:id="@+id/already_hav"
+        android:layout_width="300dp"
+        android:layout_height="31dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="662dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:gravity="top"
+        android:text="@string/already_hav"
+        android:textAppearance="@style/already_hav" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="80dp"
+        android:layout_height="31dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="662dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:gravity="top"
+        android:text="@string/login"
+        android:textAppearance="@style/login2" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="315dp"
+        android:src="@drawable/vector3" />
+    <ImageView
+        android:id="@+id/yound_man_s"
+        android:layout_width="240dp"
+        android:layout_height="355dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="276dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/young"
+        android:elevation="4dp"
+        />
+
+    <View
+        android:id="@+id/rectangle_2"
+        android:layout_width="181dp"
+        android:layout_height="59dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectangle_2"
+        android:elevation="4dp" />
+
+    <TextView
+        android:id="@+id/create_your"
+        android:layout_width="229dp"
+        android:layout_height="53dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="145dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:gravity="top"
+        android:text="@string/create_your"
+        android:textAppearance="@style/create_your" />
+
+    <TextView
+        android:id="@+id/sign_up_2"
+        android:layout_width="247dp"
+        android:layout_height="87dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/interbold700"
+        android:gravity="center_horizontal|top"
+        android:text="@string/sign_up"
+        android:textAppearance="@style/sign_up_1" />
+
+</RelativeLayout>

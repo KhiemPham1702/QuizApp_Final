@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".login_layout"
+    android:id="@+id/login"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/login">
+    <View
+        android:id="@+id/ellipse_8"
+        android:layout_width="157dp"
+        android:layout_height="157dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="-33dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="607dp"
+        android:background="@drawable/ellipse_8"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="315dp"
+        android:src="@drawable/vector3" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/rectangle_2" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/female"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="175.69dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="65dp"
+        android:elevation="4dp"
+        />
+    <View
+        android:id="@+id/ellipse_1"
+        android:layout_width="57dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="344dp"
+        android:background="@drawable/ellipse_1"
+        />
+    <View
+        android:id="@+id/ellipse_6"
+        android:layout_width="84dp"
+        android:layout_height="81dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="297dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="402dp"
+        android:background="@drawable/ellipse_6"
+        />
+    <View
+        android:id="@+id/ellipse_7"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="366dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="551dp"
+        android:background="@drawable/ellipse_6"
+        />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="55dp"
+        android:layout_height="31dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="376dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:gravity="top"
+        android:text="@string/email"
+        android:textAppearance="@style/email" />
+
+
+    <TextView
+        android:id="@+id/sign_up"
+        android:layout_width="68dp"
+        android:layout_height="31dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="305dp"
+        android:layout_marginTop="670dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:gravity="top"
+        android:text="@string/sign_up"
+        android:textAppearance="@style/sign_up" />
+
+    <TextView
+        android:id="@+id/login_1"
+        android:layout_width="180dp"
+        android:layout_height="87dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="63dp"
+        android:fontFamily="@font/interbold700"
+        android:gravity="center_horizontal|top"
+        android:text="@string/login"
+        android:textAppearance="@style/login" />
+
+    <TextView
+        android:id="@+id/please_logi"
+        android:layout_width="165dp"
+        android:layout_height="53dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="145dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:gravity="top"
+        android:text="@string/please_logi"
+        android:textAppearance="@style/please_logi" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="414dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:textColor="@color/gray"
+        android:translationZ="90dp"
+        android:background="@drawable/rectangle_3"/>
+
+    <View
+        android:id="@+id/rectangle_3"
+        android:layout_width="335dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="414dp"
+        android:background="@drawable/rectangle_3" />
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="506dp"
+        android:background="@drawable/rectangle_4"
+        android:fontFamily="@font/baloo_bhai"
+        android:textColor="@color/gray"
+        android:inputType="textPassword"
+        android:translationZ="90dp" />
+
+    <View
+        android:id="@+id/rectangle_4"
+        android:layout_width="335dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="506dp"
+        android:background="@drawable/rectangle_4" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="100dp"
+        android:layout_height="31dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="470dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:gravity="top"
+        android:text="@string/password"
+        android:textAppearance="@style/password" />
+
+    <TextView
+        android:id="@+id/forgot_pass"
+        android:layout_width="160dp"
+        android:layout_height="31dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="550dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:gravity="top"
+        android:text="@string/forgot_pass"
+        android:textAppearance="@style/forgot_pass1" />
+
+    <View
+        android:id="@+id/rectangle_5"
+        android:layout_width="226dp"
+        android:layout_height="58dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="595dp"
+        android:background="@drawable/rectangle1" />
+
+    <TextView
+        android:id="@+id/if_you_don_"
+        android:layout_width="320dp"
+        android:layout_height="31dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="670dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:gravity="top"
+        android:text="If you don't have an account?"
+        android:textAppearance="@style/if_you_don_" />
+
+    <TextView
+
+        android:id="@+id/login1"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="134dp"
+        android:layout_marginTop="598dp"
+        android:fontFamily="@font/interbold700"
+        android:gravity="center_horizontal|top"
+        android:text="@string/login"
+        android:textAppearance="@style/login_1" />
+
+</RelativeLayout>

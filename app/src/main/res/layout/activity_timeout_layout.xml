@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/timout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign_up"
+    tools:context=".timeout_layout">
+
+    <ImageView
+        android:id="@+id/imageView_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.993"
+        app:srcCompat="@drawable/sharp_5" />
+
+    <ImageView
+        android:id="@+id/imageView_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="216dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/sharp_6" />
+
+    <!--    <com.airbnb.lottie.LottieAnimationView-->
+    <!--        android:id="@+id/animationView_1"-->
+    <!--        android:layout_width="375dp"-->
+    <!--        android:layout_height="257dp"-->
+    <!--        android:layout_marginStart="12dp"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:lottie_autoPlay="true"-->
+    <!--        app:lottie_loop="true"-->
+    <!--        app:lottie_progress="-1000"-->
+    <!--        app:lottie_rawRes="@raw/bad_animation_1"-->
+    <!--        tools:ignore="MissingConstraints"-->
+    <!--        tools:layout_editor_absoluteY="61dp" />-->
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView_2"
+        android:layout_width="387dp"
+        android:layout_height="258dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_progress="500"
+        app:lottie_rawRes="@raw/bad_animation"
+        tools:ignore="MissingConstraints" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/button2"
+        android:layout_width="118dp"
+        android:layout_height="120dp"
+        android:alpha="0.9"
+        android:background="@drawable/ellipse_9"
+        android:src="@drawable/users"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/animationView_2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="11dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:gravity="center"
+        android:text="Sorry, Time out..."
+        android:textColor="@color/deep_orange_300"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.007"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:gravity="center"
+        android:text="3/10"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.036"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/facebook"
+        android:layout_width="326dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="152dp"
+        android:drawableLeft="@mipmap/facebook_foreground"
+        android:drawablePadding="-90dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="Share on Facebook"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/score"
+        app:layout_constraintVertical_bias="0.074" />
+
+    <TextView
+        android:id="@+id/ranking"
+        android:layout_width="249dp"
+        android:layout_height="78dp"
+        android:layout_marginEnd="16dp"
+        android:drawableLeft="@mipmap/rank_foreground"
+        android:drawablePadding="-50dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:gravity="center"
+        android:padding="-100dp"
+        android:text="  Share on Ranking"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/facebook"
+        app:layout_constraintVertical_bias="0.121" />
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="234dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="184dp"
+        android:drawableLeft="@mipmap/previous_foreground"
+        android:drawablePadding="-50dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:gravity="center"
+        android:padding="-100dp"
+        android:text="  Do other test"
+        android:textColor="@color/deep_orange_300"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.888" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
